@@ -1,90 +1,82 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-body{
-    background-color: #2B2922;
+body {
+  background-color: #2b2922;
 }
 
 /* ===============================navbar======================== */
-.navbar{
-    width: 85%;
-    height: 50px;
-    margin: 2em auto;
+.navbar {
+  width: 85%;
+  height: 50px;
+  margin: 2em auto;
 }
-.logo{
-    float: left;
-    display: inline;
-    width: 100px;
+.logo {
+  float: left;
+  display: inline;
+  width: 100px;
+}
+.list {
+  float: left;
+  list-style-type: none;
+  /* padding: 0; */
+  color: #aba9a1;
+  margin-top: 0.7em;
+  margin-left: 20em;
+}
+.list-item {
+  float: left;
+  margin-left: 2.5em;
+}
 
-}
-.list{
-    float: left;
-    list-style-type: none;
-    /* padding: 0; */
-    color: #ABA9A1;
-    margin-top: .7em;
-    margin-left: 20em;
-}
-.list-item{
-    float: left;
-    margin-left: 2.5em;
-}
-
-.button-small{
-    float: right;
-    margin-top: .3em;
-    background-color: transparent;
-    color: #968634;
-    border: 1px solid #968634;
-    border-radius: 5px;
-    padding: .5em 1em;
-    font-weight: bold;
-    font-size: 1rem;
+.button-small {
+  float: right;
+  margin-top: 0.3em;
+  background-color: transparent;
+  color: #968634;
+  border: 1px solid #968634;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 /* =====================================navbar End================== */
 
-
 /* ======================================Hero section================ */
 
-
-.hero-img{
-    width: 1350px;
-    height: 500px;
-    object-fit: cover;
+.bg-img {
+  width: 1350px;
+  height: 500px;
+  object-fit: cover;
 }
-.hero-heading{
-    color: #fff;
-    font-size: 3rem;
-    float: left;
-    margin: .6em 0;
-    margin-left: 2.1em;
-    width: 27%;
+.hero-message {
+  color: #fff;
+  font-size: 3em;
+  float: left;
+  margin: 0.6em 0;
+  margin-left: 2.1em;
+  width: 27%;
 }
 
 /* ======================================Hero section End================ */
 
-
-article{
-    color: #ABAAB7;
-    width: 37%;
-    float: right;
-    margin-top: 2em;
-    margin-right: 10em;
-    font-size: 1.2rem;
+article {
+  color: #abaab7;
+  width: 37%;
+  float: right;
+  margin-top: 2em;
+  margin-right: 10em;
+  font-size: 1.2rem;
 }
 
 /* bottom icon */
 
-.fa-solid{
-    border: 2px solid #fff;
-    padding: 0 0.25em;
-    border-radius: 50%;
-    margin-right: .2em;
+.fa-solid {
+  border: 2px solid #fff;
+  padding: 0 0.25em;
+  border-radius: 50%;
+  margin-right: 0.2em;
 }
-
-
-
-
